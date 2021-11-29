@@ -5,13 +5,14 @@ Simple books collction API.
 ## Configuration
 
 Files:
-* ormconfig.json - database connection config (database schema wil be created automatically)
-* .env - server port number 
+* ormconfig.json - MySQL database connection config (database schema will be created automatically)
+* .env - server port number (default: 3033)
 
 ## Commands
 
-#### Build & Run
+#### Install, Build, Run
 ```
+npm install
 npm run build
 npm run start
 ```
